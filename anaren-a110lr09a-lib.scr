@@ -1,0 +1,180 @@
+# Library script
+# 
+# Exported from C:/EAGLE 8.7.1/lbr/Anaren.lbr at 3/23/2018 12:55 PM
+# 
+# EAGLE Version 8.7.1 Copyright (c) 1988-2018 Autodesk, Inc.
+# 
+Set Wire_Bend 2;
+# Grid changed to 'mm' to avoid loss of precision!
+Grid mm;
+Layer   1 Top;
+Layer  16 Bottom;
+Layer  17 Pads;
+Layer  18 Vias;
+Layer  19 Unrouted;
+Layer  20 Dimension;
+Layer  21 tPlace;
+Layer  22 bPlace;
+Layer  23 tOrigins;
+Layer  24 bOrigins;
+Layer  25 tNames;
+Layer  26 bNames;
+Layer  27 tValues;
+Layer  28 bValues;
+Layer  29 tStop;
+Layer  30 bStop;
+Layer  31 tCream;
+Layer  32 bCream;
+Layer  33 tFinish;
+Layer  34 bFinish;
+Layer  35 tGlue;
+Layer  36 bGlue;
+Layer  37 tTest;
+Layer  38 bTest;
+Layer  39 tKeepout;
+Layer  40 bKeepout;
+Layer  41 tRestrict;
+Layer  42 bRestrict;
+Layer  43 vRestrict;
+Layer  44 Drills;
+Layer  45 Holes;
+Layer  46 Milling;
+Layer  47 Measures;
+Layer  48 Document;
+Layer  49 Reference;
+Layer  51 tDocu;
+Layer  52 bDocu;
+Layer  88 SimResults;
+Layer  89 SimProbes;
+Layer  90 Modules;
+Layer  91 Nets;
+Layer  92 Busses;
+Layer  93 Pins;
+Layer  94 Symbols;
+Layer  95 Names;
+Layer  96 Values;
+Layer  97 Info;
+Layer  98 Guide;
+Description '';
+
+Edit 'A110LR09A.sym';
+Pin 'SCLK' io none middle R0 both 0 (-22.86 2.54);
+Pin 'MISO/GDO_1' io none middle R0 both 0 (-22.86 0);
+Pin 'MOSI' io none middle R0 both 0 (-22.86 -2.54);
+Pin 'CSN' io none middle R0 both 0 (-22.86 -5.08);
+Pin 'GDO0' io none middle R0 both 0 (-22.86 -15.24);
+Pin 'GDO2' io none middle R0 both 0 (-22.86 -17.78);
+Pin 'VDD' pwr none middle R180 both 0 (15.24 7.62);
+Pin 'GND@2' sup none middle R180 both 0 (15.24 2.54);
+Pin 'DNC1' nc none point R180 both 0 (2.54 -5.08);
+Pin 'GND@1' sup none middle R180 both 0 (15.24 0);
+Pin 'DNC2' nc none point R180 both 0 (2.54 -7.62);
+Pin 'DNC3' nc none point R180 both 0 (2.54 -10.16);
+Pin 'DNC4' nc none point R180 both 0 (2.54 -12.7);
+Pin 'DNC5' nc none point R180 both 0 (2.54 -15.24);
+Pin 'DNC6' nc none point R180 both 0 (2.54 -17.78);
+Pin 'NC1' nc none point R180 both 0 (12.7 -5.08);
+Pin 'NC2' nc none point R180 both 0 (12.7 -7.62);
+Pin 'NC3' nc none point R180 both 0 (12.7 -10.16);
+Pin 'NC4' nc none point R180 both 0 (12.7 -12.7);
+Pin 'NC5' nc none point R180 both 0 (12.7 -15.24);
+Pin 'NC6' nc none point R180 both 0 (12.7 -17.78);
+Layer 94;
+Change Style continuous;
+Wire  0.254 (-17.78 15.24) (12.7 15.24) (12.7 -2.54) (27.94 -2.54) \
+      (27.94 -20.32) (-17.78 -20.32) (-17.78 15.24);
+Layer 94;
+Change Size 1.778;
+Change Ratio 8;
+Change Align bottom left;
+Change Font proportional;
+Text 'AIR LR09 MODULE' R0 (-15.24 10.16);
+Pin 'VDCOUP1' nc none short R0 both 0 (-15.24 7.62);
+Pin 'VDCOUP2' nc none short R0 both 0 (-15.24 5.08);
+Pin 'P1' nc none point R180 both 0 (22.86 -5.08);
+Pin 'P2' nc none point R180 both 0 (22.86 -7.62);
+Pin 'P3' nc none point R180 both 0 (22.86 -10.16);
+Pin 'P4' nc none point R180 both 0 (22.86 -12.7);
+Pin 'NC7' nc none point R180 both 0 (22.86 -17.78);
+
+Edit 'LR09.pac';
+Description '';
+Layer 1;
+Smd 'P$2' 1.5 0.61 -0 R0 (-4.11 0.25);
+Layer 1;
+Smd 'P$3' 1.5 0.61 -0 R0 (-4.11 -0.75);
+Layer 1;
+Smd 'P$4' 1.5 0.61 -0 R0 (-4.11 -1.75);
+Layer 1;
+Smd 'P$5' 1.5 0.61 -0 R0 (-4.11 -2.75);
+Layer 1;
+Smd 'P$6' 1.5 0.61 -0 R0 (-4.11 -3.75);
+Layer 1;
+Smd 'P$7' 1.5 0.61 -0 R0 (-4.11 -4.75);
+Layer 1;
+Smd 'P$8' 1.5 0.61 -0 R0 (-4.11 -5.75);
+Layer 1;
+Smd 'P$1' 1.6 0.61 -80 R0 (-4.11 1.25);
+Layer 1;
+Smd 'P$9' 1.5 0.61 -0 R90 (-3.5 -7.3);
+Layer 1;
+Smd 'P$10' 1.5 0.61 -0 R90 (-2.5 -7.3);
+Layer 1;
+Smd 'P$11' 1.5 0.61 -0 R90 (-1.5 -7.3);
+Layer 1;
+Smd 'P$12' 1.5 0.61 -0 R90 (-0.5 -7.3);
+Layer 1;
+Smd 'P$13' 1.5 0.61 -0 R90 (0.5 -7.3);
+Layer 1;
+Smd 'P$14' 1.5 0.61 -0 R90 (1.5 -7.3);
+Layer 1;
+Smd 'P$15' 1.5 0.61 -0 R90 (2.5 -7.3);
+Layer 1;
+Smd 'P$16' 1.5 0.61 -0 R90 (3.5 -7.3);
+Layer 1;
+Smd 'P$17' 1.5 0.61 -0 R180 (4.11 -5.75);
+Layer 1;
+Smd 'P$18' 1.5 0.61 -0 R180 (4.11 -4.75);
+Layer 1;
+Smd 'P$19' 1.5 0.61 -0 R180 (4.11 -3.75);
+Layer 1;
+Smd 'P$20' 1.5 0.61 -0 R180 (4.11 -2.75);
+Layer 1;
+Smd 'P$21' 1.5 0.61 -0 R180 (4.11 -1.75);
+Layer 1;
+Smd 'P$22' 1.5 0.61 -0 R180 (4.11 -0.75);
+Layer 1;
+Smd 'P$23' 1.5 0.61 -0 R180 (4.11 0.25);
+Layer 1;
+Smd 'P$24' 1.5 0.61 -0 R180 (4.11 1.25);
+Layer 1;
+Smd 'P$25' 1 1 -0 R0 (-1 0);
+Layer 1;
+Smd 'P$26' 1 1 -0 R0 (1 0);
+Layer 1;
+Smd 'P$27' 1 1 -0 R0 (-3.91 3.25);
+Layer 1;
+Smd 'P$28' 1 1 -0 R0 (3.91 3.25);
+Layer 1;
+Smd 'P$29' 1 1 -0 R0 (-3.91 7.25);
+Layer 1;
+Smd 'P$30' 1 1 -0 R0 (3.91 7.25);
+
+Edit 'A110LR09A.dev';
+Prefix '';
+Description '\
+Anaren LR09A Module \n\
+<p> A110LR09A\n\
+\n\
+In PDF Datasheet 8.01 is 8.02';
+Value off;
+Add A110LR09A 'G$1' next 0 (2.54 2.54);
+Package 'LR09' '';
+Technology '';
+Connect  'G$1.CSN' 'P$12'  'G$1.DNC1' 'P$1'  'G$1.DNC2' 'P$2'  'G$1.DNC3' 'P$3'  'G$1.DNC4' 'P$22' \
+         'G$1.DNC5' 'P$23'  'G$1.DNC6' 'P$24'  'G$1.GDO0' 'P$13'  'G$1.GDO2' 'P$14'  'G$1.GND@1' 'P$8'  'G$1.GND@2' 'P$17' \
+         'G$1.MISO/GDO_1' 'P$10'  'G$1.MOSI' 'P$11'  'G$1.NC1' 'P$4'  'G$1.NC2' 'P$5'  'G$1.NC3' 'P$6'  'G$1.NC4' 'P$16' \
+         'G$1.NC5' 'P$19'  'G$1.NC6' 'P$20'  'G$1.NC7' 'P$21'  'G$1.P1' 'P$25'  'G$1.P2' 'P$26'  'G$1.P3' 'P$27' \
+         'G$1.P4' 'P$28 P$29 P$30'  'G$1.SCLK' 'P$9'  'G$1.VDCOUP1' 'P$7'  'G$1.VDCOUP2' 'P$15'  'G$1.VDD' 'P$18';
+Grid inch;
+Edit ;
