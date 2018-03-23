@@ -1,0 +1,157 @@
+# Library script
+# 
+# Exported from C:/EAGLE 8.7.1/lbr/ESP Modules.lbr at 3/23/2018 1:04 PM
+# 
+# EAGLE Version 8.7.1 Copyright (c) 1988-2018 Autodesk, Inc.
+# 
+Set Wire_Bend 2;
+# Grid changed to 'mm' to avoid loss of precision!
+Grid mm;
+Layer   1 Top;
+Layer  16 Bottom;
+Layer  17 Pads;
+Layer  18 Vias;
+Layer  19 Unrouted;
+Layer  20 Dimension;
+Layer  21 tPlace;
+Layer  22 bPlace;
+Layer  23 tOrigins;
+Layer  24 bOrigins;
+Layer  25 tNames;
+Layer  26 bNames;
+Layer  27 tValues;
+Layer  28 bValues;
+Layer  29 tStop;
+Layer  30 bStop;
+Layer  31 tCream;
+Layer  32 bCream;
+Layer  33 tFinish;
+Layer  34 bFinish;
+Layer  35 tGlue;
+Layer  36 bGlue;
+Layer  37 tTest;
+Layer  38 bTest;
+Layer  39 tKeepout;
+Layer  40 bKeepout;
+Layer  41 tRestrict;
+Layer  42 bRestrict;
+Layer  43 vRestrict;
+Layer  44 Drills;
+Layer  45 Holes;
+Layer  46 Milling;
+Layer  47 Measures;
+Layer  48 Document;
+Layer  49 Reference;
+Layer  51 tDocu;
+Layer  52 bDocu;
+Layer  88 SimResults;
+Layer  89 SimProbes;
+Layer  90 Modules;
+Layer  91 Nets;
+Layer  92 Busses;
+Layer  93 Pins;
+Layer  94 Symbols;
+Layer  95 Names;
+Layer  96 Values;
+Layer  97 Info;
+Layer  98 Guide;
+Description '';
+
+Edit 'ESP12_E_MODULE.sym';
+Pin 'RST' io none long R180 both 0 (22.86 2.54);
+Pin 'ADC/TOUT' io none long R0 both 0 (-15.24 17.78);
+Pin 'EN' io none long R180 both 0 (22.86 5.08);
+Pin 'GPIO16' io none long R0 both 0 (-15.24 -15.24);
+Pin 'GPIO14' io none long R0 both 0 (-15.24 -10.16);
+Pin 'GPIO12' io none long R0 both 0 (-15.24 -5.08);
+Pin 'GPIO13' io none long R0 both 0 (-15.24 -7.62);
+Pin 'VCC' pwr none long R180 both 0 (22.86 17.78);
+Pin 'CS0' io none long R180 both 0 (22.86 7.62);
+Pin 'MISO' io none long R180 both 0 (22.86 -10.16);
+Pin 'GPIO9' io none long R0 both 0 (-15.24 0);
+Pin 'GPIO10' io none long R0 both 0 (-15.24 -2.54);
+Pin 'MOSI' io none long R180 both 0 (22.86 -12.7);
+Pin 'SCLK' io none long R180 both 0 (22.86 -15.24);
+Pin 'GND' sup none long R180 both 0 (22.86 15.24);
+Pin 'GPIO15' io none long R0 both 0 (-15.24 -12.7);
+Pin 'GPIO2' io none long R0 both 0 (-15.24 7.62);
+Pin 'GPIO0' io none long R0 both 0 (-15.24 10.16);
+Pin 'GPIO4' io none long R0 both 0 (-15.24 5.08);
+Pin 'GPIO5' io none long R0 both 0 (-15.24 2.54);
+Pin 'RXD0' in none long R180 both 0 (22.86 -5.08);
+Pin 'TXD0' out none long R180 both 0 (22.86 -2.54);
+Layer 94;
+Change Style continuous;
+Wire  0.254 (-12.7 20.32) (20.32 20.32) (20.32 -17.78) (-12.7 -17.78) \
+      (-12.7 20.32) (-12.7 27.94) (20.32 27.94) (20.32 20.32);
+Layer 94;
+Change Size 1.778;
+Change Ratio 8;
+Change Align bottom left;
+Change Font proportional;
+Text 'ESP12E' R0 (-10.16 22.86);
+
+Edit 'ESP12E-FP.pac';
+Description '';
+Layer 1;
+Smd 'P$1' 2.5 1 -80 R0 (0 15.5);
+Layer 1;
+Smd 'P$2' 2.5 1 -0 R0 (0 13.5);
+Layer 1;
+Smd 'P$3' 2.5 1 -0 R0 (0 11.5);
+Layer 1;
+Smd 'P$4' 2.5 1 -0 R0 (0 9.5);
+Layer 1;
+Smd 'P$5' 2.5 1 -0 R0 (0 7.5);
+Layer 1;
+Smd 'P$6' 2.5 1 -0 R0 (0 5.5);
+Layer 1;
+Smd 'P$7' 2.5 1 -0 R0 (0 3.5);
+Layer 1;
+Smd 'P$8' 2.5 1 -0 R0 (0 1.5);
+Layer 1;
+Smd 'P$9' 1.8 1 -0 R90 (3 0);
+Layer 1;
+Smd 'P$10' 1.8 1 -0 R90 (5 0);
+Layer 1;
+Smd 'P$11' 1.8 1 -0 R90 (7 0);
+Layer 1;
+Smd 'P$12' 1.8 1 -0 R90 (9 0);
+Layer 1;
+Smd 'P$13' 1.8 1 -0 R90 (11 0);
+Layer 1;
+Smd 'P$14' 1.8 1 -0 R90 (13 0);
+Layer 1;
+Smd 'P$15' 2.5 1 -0 R0 (16 1.5);
+Layer 1;
+Smd 'P$16' 2.5 1 -0 R0 (16 3.5);
+Layer 1;
+Smd 'P$17' 2.5 1 -0 R0 (16 5.5);
+Layer 1;
+Smd 'P$18' 2.5 1 -0 R0 (16 7.5);
+Layer 1;
+Smd 'P$19' 2.5 1 -0 R0 (16 9.5);
+Layer 1;
+Smd 'P$20' 2.5 1 -0 R0 (16 11.5);
+Layer 1;
+Smd 'P$21' 2.5 1 -0 R0 (16 13.5);
+Layer 1;
+Smd 'P$22' 2.5 1 -0 R0 (16 15.5);
+Layer 25;
+Change Size 1;
+Change Align bottom left;
+Text '>NAME' R0 (5 14);
+
+Edit 'ESP-12E-MODULE.dev';
+Prefix '';
+Description '';
+Value off;
+Add ESP12_E_MODULE 'G$1' next 0 (-2.54 -2.54);
+Package 'ESP12E-FP' '';
+Technology '';
+Connect  'G$1.ADC/TOUT' 'P$2'  'G$1.CS0' 'P$9'  'G$1.EN' 'P$3'  'G$1.GND' 'P$15'  'G$1.GPIO0' 'P$18' \
+         'G$1.GPIO2' 'P$17'  'G$1.GPIO4' 'P$19'  'G$1.GPIO5' 'P$20'  'G$1.GPIO9' 'P$11'  'G$1.GPIO10' 'P$12'  'G$1.GPIO12' 'P$6' \
+         'G$1.GPIO13' 'P$7'  'G$1.GPIO14' 'P$5'  'G$1.GPIO15' 'P$16'  'G$1.GPIO16' 'P$4'  'G$1.MISO' 'P$10'  'G$1.MOSI' 'P$13' \
+         'G$1.RST' 'P$1'  'G$1.RXD0' 'P$21'  'G$1.SCLK' 'P$14'  'G$1.TXD0' 'P$22'  'G$1.VCC' 'P$8';
+Grid inch;
+Edit ;
