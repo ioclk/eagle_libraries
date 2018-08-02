@@ -11,3 +11,4 @@ Some Eagle PCB Libraries in SCR export format
 <p>HopeRF RFM69HCW - 16x16mm
 <p>HopeRF RFM95 family - 16x16mm
 <p>ESP12E - AI Thinker version
+<p>Tag-Connect TC-2070 (legged version)
