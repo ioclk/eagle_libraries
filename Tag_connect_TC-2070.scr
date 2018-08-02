@@ -1,0 +1,150 @@
+# Library script
+# 
+# Exported from C:/Users/D/Documents/EAGLE/libraries/Tag-Connect-IO.lbr at 8/2/2018 7:28 AM
+# 
+# EAGLE Version 9.1.1 Copyright (c) 1988-2018 Autodesk, Inc.
+# 
+Set Wire_Bend 2;
+# Grid changed to 'mm' to avoid loss of precision!
+Grid mm;
+Layer   1 Top;
+Layer  16 Bottom;
+Layer  17 Pads;
+Layer  18 Vias;
+Layer  19 Unrouted;
+Layer  20 Dimension;
+Layer  21 tPlace;
+Layer  22 bPlace;
+Layer  23 tOrigins;
+Layer  24 bOrigins;
+Layer  25 tNames;
+Layer  26 bNames;
+Layer  27 tValues;
+Layer  28 bValues;
+Layer  29 tStop;
+Layer  30 bStop;
+Layer  31 tCream;
+Layer  32 bCream;
+Layer  33 tFinish;
+Layer  34 bFinish;
+Layer  35 tGlue;
+Layer  36 bGlue;
+Layer  37 tTest;
+Layer  38 bTest;
+Layer  39 tKeepout;
+Layer  40 bKeepout;
+Layer  41 tRestrict;
+Layer  42 bRestrict;
+Layer  43 vRestrict;
+Layer  44 Drills;
+Layer  45 Holes;
+Layer  46 Milling;
+Layer  47 Measures;
+Layer  48 Document;
+Layer  49 Reference;
+Layer  51 tDocu;
+Layer  52 bDocu;
+Layer  88 SimResults;
+Layer  89 SimProbes;
+Layer  90 Modules;
+Layer  91 Nets;
+Layer  92 Busses;
+Layer  93 Pins;
+Layer  94 Symbols;
+Layer  95 Names;
+Layer  96 Values;
+Layer  97 Info;
+Layer  98 Guide;
+Description '';
+
+Edit 'TC2070.sym';
+Pin '1_TDO/TDI' io none middle R0 both 0 (-12.7 7.62);
+Pin '2_VCC_TOOL' io none middle R0 both 0 (-12.7 5.08);
+Pin '3_TDI/VPP' io none middle R0 both 0 (-12.7 2.54);
+Pin '4_VCC_TARGET' io none middle R0 both 0 (-12.7 0);
+Pin '5_TMS' io none middle R0 both 0 (-12.7 -2.54);
+Pin '6_NC' io none middle R0 both 0 (-12.7 -5.08);
+Pin '7_TCK' io none middle R0 both 0 (-12.7 -7.62);
+Pin '8_TEST/VPP' io none middle R0 both 0 (-12.7 -10.16);
+Pin '9_GND' io none middle R0 both 0 (-12.7 -12.7);
+Pin '10_U_CTS/S_CLK/I_SCL' io none middle R0 both 0 (-12.7 -15.24);
+Pin '11_RST' io none middle R0 both 0 (-12.7 -17.78);
+Pin '12_U_TXD/S_SOMI/I_SDA' io none middle R0 both 0 (-12.7 -20.32);
+Pin '13_U_RTS' io none middle R0 both 0 (-12.7 -22.86);
+Pin '14_U_RXD/S_SIMO' io none middle R0 both 0 (-12.7 -25.4);
+Layer 94;
+Change Style continuous;
+Wire  0.1524 (-10.16 12.7) (-10.16 -27.94) (22.86 -27.94) (22.86 12.7) \
+      (-10.16 12.7);
+Layer 94;
+Change Size 1.778;
+Change Ratio 8;
+Change Align bottom left;
+Change Font proportional;
+Text 'Tag-Connect' R0 (-5.08 10.16);
+Layer 94;
+Change Size 1.778;
+Change Align bottom left;
+Text 'TC2070 MSP' R0 (-10.16 15.24);
+
+Edit 'TC2070--FP.pac';
+Description '';
+Layer 1;
+Smd 'P$1' 0.8 0.8 -100 R0 NOCREAM (1.27 -0.635);
+Hole 1 (0 0);
+Layer 1;
+Smd 'P$2' 0.8 0.8 -100 R0 NOCREAM (2.54 -0.635);
+Layer 1;
+Smd 'P$3' 0.8 0.8 -100 R0 NOCREAM (3.81 -0.635);
+Layer 1;
+Smd 'P$4' 0.8 0.8 -100 R0 NOCREAM (5.08 -0.635);
+Layer 1;
+Smd 'P$5' 0.8 0.8 -100 R0 NOCREAM (6.35 -0.635);
+Layer 1;
+Smd 'P$6' 0.8 0.8 -100 R0 NOCREAM (7.62 -0.635);
+Layer 1;
+Smd 'P$7' 0.8 0.8 -100 R0 NOCREAM (8.89 -0.635);
+Layer 1;
+Smd 'P$8' 0.8 0.8 -100 R0 NOCREAM (8.89 0.635);
+Layer 1;
+Smd 'P$9' 0.8 0.8 -100 R0 NOCREAM (7.62 0.635);
+Layer 1;
+Smd 'P$10' 0.8 0.8 -100 R0 NOCREAM (6.35 0.635);
+Layer 1;
+Smd 'P$11' 0.8 0.8 -100 R0 NOCREAM (5.08 0.635);
+Layer 1;
+Smd 'P$12' 0.8 0.8 -100 R0 NOCREAM (3.81 0.635);
+Layer 1;
+Smd 'P$13' 0.8 0.8 -100 R0 NOCREAM (2.54 0.635);
+Layer 1;
+Smd 'P$14' 0.8 0.8 -100 R0 NOCREAM (1.27 0.635);
+Hole 1 (10.16 1.015);
+Hole 1 (10.16 -1.015);
+Hole 2.4 (0 -2.54);
+Hole 2.4 (0 2.54);
+Hole 2.4 (8.255 2.54);
+Hole 2.4 (8.255 -2.54);
+
+Edit 'TC2070.dev';
+Prefix '';
+Description '';
+Value off;
+Add TC2070 'A' next 0 (0 0);
+Package 'TC2070--FP' '';
+Technology '';
+Connect  'A.1_TDO/TDI' 'P$1'  'A.2_VCC_TOOL' 'P$2'  'A.3_TDI/VPP' 'P$3'  'A.4_VCC_TARGET' 'P$4'  'A.5_TMS' 'P$5' \
+         'A.6_NC' 'P$6'  'A.7_TCK' 'P$7'  'A.8_TEST/VPP' 'P$8'  'A.9_GND' 'P$9'  'A.10_U_CTS/S_CLK/I_SCL' 'P$10'  'A.11_RST' 'P$11' \
+         'A.12_U_TXD/S_SOMI/I_SDA' 'P$12'  'A.13_U_RTS' 'P$13'  'A.14_U_RXD/S_SIMO' 'P$14';
+
+Edit 'TC2070-MSP.dev';
+Prefix '';
+Description '';
+Value off;
+Add TC2070 'A' next 0 (-7.62 7.62);
+Package 'TC2070--FP' '';
+Technology '';
+Connect  'A.1_TDO/TDI' 'P$1'  'A.2_VCC_TOOL' 'P$2'  'A.3_TDI/VPP' 'P$3'  'A.4_VCC_TARGET' 'P$4'  'A.5_TMS' 'P$5' \
+         'A.6_NC' 'P$6'  'A.7_TCK' 'P$7'  'A.8_TEST/VPP' 'P$8'  'A.9_GND' 'P$9'  'A.10_U_CTS/S_CLK/I_SCL' 'P$10'  'A.11_RST' 'P$11' \
+         'A.12_U_TXD/S_SOMI/I_SDA' 'P$12'  'A.13_U_RTS' 'P$13'  'A.14_U_RXD/S_SIMO' 'P$14';
+Grid inch;
+Edit ;
